@@ -1,8 +1,3 @@
-/*
- * File: 102-fibonacci.c
- * Auth: deon okongo
- */
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -24,11 +19,10 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 49)
-			printf("\n");
-		else
+		if (count < 49)
 			printf(",");
 	}
+	printf("\n");
 	return (0);
 }
 
