@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlin.h>
+#include <stdlib.h>
 
 /**
  * main - generate a key depending on a username for crackme5
